@@ -571,7 +571,7 @@ export default {
               .append("circle")
               .attr("cx", 0)
               .attr("cy", 0)
-              .attr("fill", "none")
+              .attr("fill", "transparent")
               .attr("pointer-events", "bounding-box")
               .on("mouseover", () => {
                 const {
